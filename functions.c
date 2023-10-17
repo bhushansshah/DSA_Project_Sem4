@@ -59,13 +59,17 @@ double flow_time(route r, request rq){
 	return arr_destination - rq.release_time;
 }
 
-void display_route(route r){
+void display_route(route r, char *file){
+	FILE *fptr;
+	fptr = fopen(file, "r");	
 	location_node *n = r;
 	while(n){
 		printf("----coordinate----\n");
 		printf("x, y = %lf, %lf\n", (n->sequenced_location).x, (n->sequenced_location).y);
+		fprintf(fptr, "%lf\t%lf\n", (n->sequenced_location).x, (n->sequenced_location).y);
 		n = n->next_location_node;
 	}
+	fclose(fptr);
 	return;
 }
 
