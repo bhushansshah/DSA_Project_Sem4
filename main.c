@@ -134,7 +134,7 @@ int main(int argc, char *argv[]){
 
 	r = insertion_operator(r, w, &rq_new);
 	printf("Route after insertion of the new request:\n");
-	display_route(r);
+	display_route(r, "data/final_route");
 	printf("max flow time - %lf\n", calculate_objective(r, rq_new.release_time));
 	return 0;
 }

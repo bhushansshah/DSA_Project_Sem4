@@ -59,13 +59,17 @@ double flow_time(route r, request rq){
 	return arr_destination - rq.release_time;
 }
 
-void display_route(route r){
+void display_route(route r, char *file){
+	FILE *fptr;
+	fptr = fopen(file, "w");	
 	location_node *n = r;
 	while(n){
 		printf("----coordinate----\n");
 		printf("x, y = %lf, %lf\n", (n->sequenced_location).x, (n->sequenced_location).y);
+		fprintf(fptr, "%lf\t%lf\n", (n->sequenced_location).x, (n->sequenced_location).y);
 		n = n->next_location_node;
 	}
+	fclose(fptr);
 	return;
 }
 
@@ -73,7 +77,7 @@ route insertion_operator(route r, worker w, request *rq){
 	int count = 0;
 	route r_new = findCurrentLocation(r, &w, rq);
 	printf("----Displaying new route----\n");
-	display_route(r_new);
+	display_route(r_new, "data/initial_route");
 //	printf("worker pickup - %d, worker capacity - %d\n", w.picked_up, w.capacity);
 	location_node *rq_origin = (location_node *)malloc(sizeof(location_node));
 	location_node *rq_destination = (location_node *)malloc(sizeof(location_node));

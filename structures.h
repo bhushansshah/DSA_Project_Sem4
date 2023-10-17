@@ -59,7 +59,7 @@ void insertion_operator(route *r, worker w, request rq);
 //double find_objective();
 int check_deadline_constraint(route r, location_node l, worker w);
 int check_capacity_constraint(route r, location_node l, worker w);*/
-void display_route(route );
+void display_route(route, char * );
 route insertion_operator(route , worker, request *);
 double calculate_objective(route, double);
 int constrain_satisfy(route, worker, double);
