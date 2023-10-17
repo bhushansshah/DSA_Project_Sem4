@@ -61,7 +61,7 @@ double flow_time(route r, request rq){
 
 void display_route(route r, char *file){
 	FILE *fptr;
-	fptr = fopen(file, "r");	
+	fptr = fopen(file, "w");	
 	location_node *n = r;
 	while(n){
 		printf("----coordinate----\n");
