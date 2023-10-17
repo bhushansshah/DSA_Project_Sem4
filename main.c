@@ -1,60 +1,68 @@
 #include <stdio.h>
 #include "structures.h"
 
-int main(){
+int main(int argc, char *argv[]){
 	route r;
 	worker w;
 //	w.current_location.x = 0;
 //	w.current_location.y = 4;
 //	w.capacity = 6;
 //	w.picked_up = 0;
-	printf("Enter the worker X coordinate - ");
-	scanf("%lf", &w.current_location.x);
-	printf("Enter the worker Y coordinate - ");
-	scanf("%lf", &w.current_location.y);
-	printf("Enter the worker capacity - ");
-	scanf("%d", &w.capacity);
-	printf("Enter the worker no. of parcels picked up - ");
-	scanf("%d", &w.picked_up);
+	int no_of_requests = argc - 3;
+	char *worker_filename = argv[1];
+	FILE *wfile = fopen(worker_filename, "r");
+//	printf("Enter the worker X coordinate - ");
+	fscanf(wfile, "%lf", &w.current_location.x);
+//	printf("Enter the worker Y coordinate - ");
+	fscanf(wfile, "%lf", &w.current_location.y);
+//	printf("Enter the worker capacity - ");
+	fscanf(wfile, "%d", &w.capacity);
+//	printf("Enter the worker no. of parcels picked up - ");
+	fscanf(wfile, "%d", &w.picked_up);
+	fclose(wfile);
 	init_route(&r, w.current_location);
 	request **rq;
 	request rq_new;
-	int no_of_requests;
 	rq = malloc(sizeof(request *) * no_of_requests);
 	printf("Enter the no. of existing request - ");
-	scanf("%d", &no_of_requests);
+	FILE *fptr;
 	for(int i = 0; i < no_of_requests; i++){
+		fptr = fopen(argv[i + 2], "r");
 		rq[i] = (request *) malloc(sizeof(request));
-		printf("Enter the request %d origin X coordinate - ", i + 1);
-		scanf("%lf", &rq[i]->origin.x);
-		printf("Enter the request %d origin Y coordinate - ", i + 1);
-		scanf("%lf", &rq[i]->origin.y);
-		printf("Enter the request %d destination X coordinate - ", i + 1);
-		scanf("%lf", &rq[i]->destination.x);
-		printf("Enter the request %d destination Y coordinate - ", i + 1);
-		scanf("%lf", &rq[i]->destination.y);
-		printf("Enter the request %d release time - ", i + 1);
-		scanf("%lf", &rq[i]->release_time);
-		printf("Enter the request %d deadline time - ", i + 1);
-		scanf("%lf", &rq[i]->deadline_time);
-		printf("Enter the capacity of the request %d - ", i + 1);
-		scanf("%d", &rq[i]->capacity);
+//		printf("Enter the request %d origin X coordinate - ", i + 1);
+		fscanf(fptr, "%lf", &rq[i]->origin.x);
+//		printf("Enter the request %d origin Y coordinate - ", i + 1);
+		fscanf(fptr, "%lf", &rq[i]->origin.y);
+//		printf("Enter the request %d destination X coordinate - ", i + 1);
+		fscanf(fptr, "%lf", &rq[i]->destination.x);
+//		printf("Enter the request %d destination Y coordinate - ", i + 1);
+		fscanf(fptr, "%lf", &rq[i]->destination.y);
+//		printf("Enter the request %d release time - ", i + 1);
+		fscanf(fptr, "%lf", &rq[i]->release_time);
+//		printf("Enter the request %d deadline time - ", i + 1);
+		fscanf(fptr, "%lf", &rq[i]->deadline_time);
+//		printf("Enter the capacity of the request %d - ", i + 1);
+		fscanf(fptr, "%d", &rq[i]->capacity);
+		fclose(fptr);
+		printf("done\n");
 
 	}
-	printf("Enter the new request origin X coordinate - ");
-	scanf("%lf", &rq_new.origin.x);
-	printf("Enter the request origin Y coordinate - ");
-	scanf("%lf", &rq_new.origin.y);
-	printf("Enter the request destination X coordinate - ");
-	scanf("%lf", &rq_new.destination.x);
-	printf("Enter the request destination Y coordinate - ");
-	scanf("%lf", &rq_new.destination.y);
-	printf("Enter the request release time - ");
-	scanf("%lf", &rq_new.release_time);
-	printf("Enter the request deadline time - ");
-	scanf("%lf", &rq_new.deadline_time);
-	printf("Enter the capacity of the request  - ");
-	scanf("%d", &rq_new.capacity);
+	fptr = fopen(argv[argc - 1], "r");
+//	printf("Enter the new request origin X coordinate - ");
+	fscanf(fptr, "%lf", &rq_new.origin.x);
+//	printf("Enter the request origin Y coordinate - ");
+	fscanf(fptr, "%lf", &rq_new.origin.y);
+//	printf("Enter the request destination X coordinate - ");
+	fscanf(fptr, "%lf", &rq_new.destination.x);
+//	printf("Enter the request destination Y coordinate - ");
+	fscanf(fptr, "%lf", &rq_new.destination.y);
+//	printf("Enter the request release time - ");
+	fscanf(fptr, "%lf", &rq_new.release_time);
+//	printf("Enter the request deadline time - ");
+	fscanf(fptr, "%lf", &rq_new.deadline_time);
+//	printf("Enter the capacity of the request  - ");
+	fscanf(fptr, "%d", &rq_new.capacity);
+	fclose(fptr);
 /*
 	rq1.origin.x = 4;
 	rq1.origin.y = 4;
@@ -99,7 +107,7 @@ int main(){
 			while(1){
 				printf("Enter the request no. of the for location %d in the route - ", i + 1);
 				scanf("%d", &ind);
-				if((ind > 0) && (ind <= no_of_requests)){
+				if((ind > 0) && (ind <= 2 * no_of_requests)){
 					break;
 				}
 				else{
