@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+./a.out wfile rq* new_rq
+./plot1.sh
