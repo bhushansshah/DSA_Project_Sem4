@@ -73,7 +73,7 @@ route insertion_operator(route r, worker w, request *rq){
 	int count = 0;
 	route r_new = findCurrentLocation(r, &w, rq);
 	printf("----Displaying new route----\n");
-	display_route(r_new);
+	display_route(r_new, "data/initial_route");
 //	printf("worker pickup - %d, worker capacity - %d\n", w.picked_up, w.capacity);
 	location_node *rq_origin = (location_node *)malloc(sizeof(location_node));
 	location_node *rq_destination = (location_node *)malloc(sizeof(location_node));
