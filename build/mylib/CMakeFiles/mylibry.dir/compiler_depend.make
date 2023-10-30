@@ -29,6 +29,8 @@ mylib/CMakeFiles/mylibry.dir/constraints.c.o: ../mylib/constraints.c \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   ../mylib/include/constraints.h \
   ../mylib/include/tools.h \
   ../mylib/include/time_functions.h
@@ -70,6 +72,8 @@ mylib/CMakeFiles/mylibry.dir/insertion_operator.c.o: ../mylib/insertion_operator
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   ../mylib/include/constraints.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -91,6 +95,7 @@ mylib/CMakeFiles/mylibry.dir/insertion_operator.c.o: ../mylib/insertion_operator
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -98,7 +103,9 @@ mylib/CMakeFiles/mylibry.dir/insertion_operator.c.o: ../mylib/insertion_operator
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   ../mylib/include/global.h \
   ../mylib/include/insertion_operator.h \
   ../mylib/include/time_functions.h \
@@ -135,6 +142,8 @@ mylib/CMakeFiles/mylibry.dir/precalculation.c.o: ../mylib/precalculation.c \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   ../mylib/include/precalculation.h \
   ../mylib/include/searching_and_sorting.h \
   ../mylib/include/time_functions.h \
@@ -159,6 +168,7 @@ mylib/CMakeFiles/mylibry.dir/precalculation.c.o: ../mylib/precalculation.c \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -166,7 +176,9 @@ mylib/CMakeFiles/mylibry.dir/precalculation.c.o: ../mylib/precalculation.c \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -214,6 +226,7 @@ mylib/CMakeFiles/mylibry.dir/ridesharing.c.o: ../mylib/ridesharing.c \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -221,7 +234,9 @@ mylib/CMakeFiles/mylibry.dir/ridesharing.c.o: ../mylib/ridesharing.c \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   ../mylib/include/insertion_operator.h \
   ../mylib/include/structures.h \
   /usr/include/stdio.h \
@@ -233,6 +248,8 @@ mylib/CMakeFiles/mylibry.dir/ridesharing.c.o: ../mylib/ridesharing.c \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   ../mylib/include/global.h
 
 mylib/CMakeFiles/mylibry.dir/searching_and_sorting.c.o: ../mylib/searching_and_sorting.c \
@@ -273,6 +290,7 @@ mylib/CMakeFiles/mylibry.dir/searching_and_sorting.c.o: ../mylib/searching_and_s
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -280,7 +298,9 @@ mylib/CMakeFiles/mylibry.dir/searching_and_sorting.c.o: ../mylib/searching_and_s
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h
 
 mylib/CMakeFiles/mylibry.dir/segment_tree.c.o: ../mylib/segment_tree.c \
   /usr/include/stdc-predef.h \
@@ -336,6 +356,7 @@ mylib/CMakeFiles/mylibry.dir/segment_tree.c.o: ../mylib/segment_tree.c \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -343,7 +364,9 @@ mylib/CMakeFiles/mylibry.dir/segment_tree.c.o: ../mylib/segment_tree.c \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/stdio.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
@@ -353,6 +376,8 @@ mylib/CMakeFiles/mylibry.dir/segment_tree.c.o: ../mylib/segment_tree.c \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   ../mylib/include/segment_tree.h \
   ../mylib/include/global.h \
   ../mylib/include/structures.h \
@@ -384,6 +409,8 @@ mylib/CMakeFiles/mylibry.dir/time_functions.c.o: ../mylib/time_functions.c \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
   ../mylib/include/constraints.h \
   ../mylib/include/structures.h \
@@ -419,6 +446,8 @@ mylib/CMakeFiles/mylibry.dir/tools.c.o: ../mylib/tools.c \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -464,9 +493,7 @@ mylib/CMakeFiles/mylibry.dir/tools.c.o: ../mylib/tools.c \
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-../mylib/include/constraints.h:
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -480,13 +507,19 @@ mylib/CMakeFiles/mylibry.dir/tools.c.o: ../mylib/tools.c \
 
 ../mylib/insertion_operator.c:
 
+/usr/include/features.h:
+
 ../mylib/include/segment_tree.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
-/usr/include/features.h:
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -503,6 +536,10 @@ mylib/CMakeFiles/mylibry.dir/tools.c.o: ../mylib/tools.c \
 ../mylib/ridesharing.c:
 
 ../mylib/constraints.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
@@ -528,15 +565,13 @@ mylib/CMakeFiles/mylibry.dir/tools.c.o: ../mylib/tools.c \
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -548,15 +583,19 @@ mylib/CMakeFiles/mylibry.dir/tools.c.o: ../mylib/tools.c \
 
 /usr/include/stdlib.h:
 
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+../mylib/include/constraints.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 /usr/include/limits.h:
 
@@ -598,10 +637,10 @@ mylib/CMakeFiles/mylibry.dir/tools.c.o: ../mylib/tools.c \
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
