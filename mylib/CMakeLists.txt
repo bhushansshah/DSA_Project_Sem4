@@ -3,3 +3,4 @@ add_library(mylibry constraints.c insertion_operator.c precalculation.c rideshar
 target_include_directories(mylibry PUBLIC 
 	${PROJECT_SOURCE_DIR}/include
 )
+target_compile_options(mylibry PUBLIC -Wall -O2 -lm)

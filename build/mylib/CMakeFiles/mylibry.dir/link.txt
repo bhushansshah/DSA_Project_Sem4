@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmylibry.a CMakeFiles/mylibry.dir/constraints.c.o CMakeFiles/mylibry.dir/insertion_operator.c.o CMakeFiles/mylibry.dir/precalculation.c.o CMakeFiles/mylibry.dir/ridesharing.c.o CMakeFiles/mylibry.dir/searching_and_sorting.c.o CMakeFiles/mylibry.dir/segment_tree.c.o CMakeFiles/mylibry.dir/time_functions.c.o CMakeFiles/mylibry.dir/tools.c.o
+/usr/bin/ranlib libmylibry.a

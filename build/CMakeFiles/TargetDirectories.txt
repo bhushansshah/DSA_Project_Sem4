@@ -1,0 +1,6 @@
+/home/bhushan/Documents/Sem5/SE/DSA_Project_Sem4/build/CMakeFiles/result.dir
+/home/bhushan/Documents/Sem5/SE/DSA_Project_Sem4/build/CMakeFiles/edit_cache.dir
+/home/bhushan/Documents/Sem5/SE/DSA_Project_Sem4/build/CMakeFiles/rebuild_cache.dir
+/home/bhushan/Documents/Sem5/SE/DSA_Project_Sem4/build/mylib/CMakeFiles/mylibry.dir
+/home/bhushan/Documents/Sem5/SE/DSA_Project_Sem4/build/mylib/CMakeFiles/edit_cache.dir
+/home/bhushan/Documents/Sem5/SE/DSA_Project_Sem4/build/mylib/CMakeFiles/rebuild_cache.dir

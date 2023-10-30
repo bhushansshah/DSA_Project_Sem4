@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/result.dir/main.c.o -o result  mylib/libmylibry.a 
